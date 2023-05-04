@@ -1,0 +1,51 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+section{
+    padding: 90px 0 40px;
+}
+.sec-top{
+    text-align: center;
+    margin-bottom: 70px;
+}
+.sec-top h1{
+    color: darkgrey;
+    font-size: 40px;
+}
+.sec-top h1 span{
+    color: black;
+}
+.boxs{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.boxs .box{
+    width: 30%;
+    
+}
+.services{
+    background-color: white;
+    text-align: center;
+}
+.services .boxs .box{
+    background-color: grey;
+    padding: 40px 20px;
+    border-radius: 10px;
+    box-shadow: 0px 5px 28px 0px ;
+    position: relative;
+    top: 0;
+}
+.services .boxs .box:hover{
+    top: -25px;
+}
+.services .boxs .box h3{
+    color: black;
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+.services .boxs .box p{
+    color: black;
+    margin-bottom: 50px;
+}

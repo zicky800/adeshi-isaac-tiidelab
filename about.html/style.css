@@ -1,0 +1,46 @@
+*{
+  padding: 0;  
+  margin: 0;
+}
+.container{
+    color: grey;
+}
+.about{
+    padding: 40px 0;
+    background-color: grey;
+}
+.about .container{
+    display: flex;
+    justify-content: center;
+    background-color: grey;
+    background: grey;
+    
+}
+.about .about-img img{
+    width: 450px;
+    border-radius: 50px;
+}
+.about .content{
+    margin-left: 30px;
+}
+.about .content h1{
+    color: darkgray;
+    font-size: 45px;
+    
+}
+.about .content h1 span{
+    color: black;
+}
+.about .content h3{
+    font-family: sans-serif;
+    color: black;
+    font-size: 20px;
+    font-weight: 600;
+    margin-bottom: 40px;
+}
+.about .content p{
+    color: black;
+    line-height: 1.8;
+    margin-bottom: 70px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-ser;
+}
